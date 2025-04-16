@@ -40,24 +40,24 @@ export default function StickyCountdown() {
     <div className="sticky top-16 z-40 w-full bg-white/95 backdrop-blur-sm border-b border-primary/10 shadow-sm py-2">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col sm:flex-row items-center justify-between">
-          <div className="flex items-center gap-2 mb-2 sm:mb-0">
-            <AlertTriangle className="h-4 w-4 text-primary" />
+          <div className="flex items-center gap-2 mb-2 sm:mb-0 text-center sm:text-left">
+            <AlertTriangle className="h-4 w-4 text-primary hidden sm:block" />
             <span className="text-sm font-medium text-secondary">Early Decision Deadline Countdown:</span>
           </div>
-          <div className="flex gap-2">
-            <div className="bg-primary/10 rounded px-2 py-1">
+          <div className="flex flex-wrap justify-center gap-2">
+            <div className="bg-primary/10 rounded px-2 py-1 min-w-[50px] text-center">
               <div className="text-sm font-bold text-secondary">{timeLeft.days}</div>
               <div className="text-xs text-muted-foreground">Days</div>
             </div>
-            <div className="bg-primary/10 rounded px-2 py-1">
+            <div className="bg-primary/10 rounded px-2 py-1 min-w-[50px] text-center">
               <div className="text-sm font-bold text-secondary">{timeLeft.hours}</div>
               <div className="text-xs text-muted-foreground">Hours</div>
             </div>
-            <div className="bg-primary/10 rounded px-2 py-1">
+            <div className="bg-primary/10 rounded px-2 py-1 min-w-[50px] text-center">
               <div className="text-sm font-bold text-secondary">{timeLeft.minutes}</div>
               <div className="text-xs text-muted-foreground">Mins</div>
             </div>
-            <div className="bg-primary/10 rounded px-2 py-1">
+            <div className="bg-primary/10 rounded px-2 py-1 min-w-[50px] text-center">
               <div className="text-sm font-bold text-secondary">{timeLeft.seconds}</div>
               <div className="text-xs text-muted-foreground">Secs</div>
             </div>

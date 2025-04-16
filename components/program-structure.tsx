@@ -52,8 +52,8 @@ export default function ProgramStructure() {
                   to see if they would be a good fit for our selective programs.
                 </p>
                 <Button className="w-full bg-primary hover:bg-primary/90" asChild>
-                  <Link href="https://calendly.com/angelina-you/chat-with-us" target="_blank">
-                    Book Free Consultation <ExternalLink className="ml-2 h-4 w-4" />
+                  <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                    Enroll Now <ExternalLink className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -100,8 +100,8 @@ export default function ProgramStructure() {
                   Selected students from the bootcamp will be invited to join our comprehensive 10-week program.
                 </p>
                 <Button className="w-full bg-primary hover:bg-primary/90" asChild>
-                  <Link href="https://calendly.com/angelina-you/chat-with-us" target="_blank">
-                    Book Free Consultation <ExternalLink className="ml-2 h-4 w-4" />
+                  <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                    Enroll Now <ExternalLink className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -117,7 +117,6 @@ export default function ProgramStructure() {
               <div>
                 <p className="font-medium">Johnny Chang</p>
                 <p className="text-sm text-muted-foreground">cjohnny@stanford.edu</p>
-                <p className="text-sm text-muted-foreground">217-848-4902</p>
               </div>
             </div>
             <div className="flex items-start gap-2">
@@ -125,7 +124,6 @@ export default function ProgramStructure() {
               <div>
                 <p className="font-medium">Angelina You</p>
                 <p className="text-sm text-muted-foreground">hyou9@stanford.edu</p>
-                <p className="text-sm text-muted-foreground">470-985-8625</p>
               </div>
             </div>
             <div className="flex items-start gap-2">
@@ -133,7 +131,6 @@ export default function ProgramStructure() {
               <div>
                 <p className="font-medium">Chinat Yu</p>
                 <p className="text-sm text-muted-foreground">chinat@stanford.edu</p>
-                <p className="text-sm text-muted-foreground">443-722-4218</p>
               </div>
             </div>
           </div>

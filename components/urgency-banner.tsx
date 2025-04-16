@@ -13,10 +13,10 @@ export default function UrgencyBanner() {
   return (
     <div className="bg-secondary text-white py-3 px-4 relative">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center space-x-3">
             <AlertTriangle className="h-5 w-5 text-primary animate-pulse" />
-            <p className="text-sm font-medium">
+            <p className="text-sm font-medium text-center sm:text-left">
               <span className="font-bold">URGENT:</span> Early Decision deadlines approaching! Only{" "}
               <span className="text-primary font-bold">3 spots left</span> for our accelerator program before Nov 1st
               applications.
@@ -29,7 +29,7 @@ export default function UrgencyBanner() {
               className="bg-primary/20 border-primary/30 text-white hover:bg-primary/30"
               asChild
             >
-              <Link href="https://calendly.com/angelina-you/chat-with-us" target="_blank">
+              <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
                 Secure Your Spot
               </Link>
             </Button>

@@ -57,8 +57,8 @@ export default function CTASection() {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-medium px-8 py-6 h-auto shadow-md animate-pulse"
                 asChild
               >
-                <Link href="https://calendly.com/angelina-you/chat-with-us" target="_blank">
-                  Book Your Free Consultation Now
+                <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                  Enroll Now
                 </Link>
               </Button>
             </div>
@@ -68,10 +68,6 @@ export default function CTASection() {
                 Have urgent questions? Contact us directly at{" "}
                 <a href="mailto:cjohnny@stanford.edu" className="text-primary hover:underline">
                   cjohnny@stanford.edu
-                </a>{" "}
-                or call{" "}
-                <a href="tel:2178484902" className="text-primary hover:underline">
-                  (217) 848-4902
                 </a>
               </p>
             </div>

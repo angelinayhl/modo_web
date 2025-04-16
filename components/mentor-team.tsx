@@ -10,7 +10,6 @@ const mentors = [
     bio: "Johnny Chang is a Computer Science graduate student at Stanford University, where he received full funding as one of the most competitive applicants. He serves as Head TA and Project Lead for Stanford's flagship graduate-level AI courses in Deep Learning, Natural Language Processing, Computer Vision, and Big Data Systems, working with professors like Andrew Ng and Christopher Manning.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-yEo3wJLx1dAidYgtKequHKsh7iNFio.png",
     email: "cjohnny@stanford.edu",
-    phone: "217-848-4902",
     avatar: "JC",
   },
   {
@@ -20,7 +19,6 @@ const mentors = [
     bio: "Angelina You is a Management Science and Engineering graduate student and Accel fellow at Stanford University. She has five years of experience in Data Science and Analytics at Meta and two other growth-stage startups. As a project manager at Statistics Without Borders, she leads cross-functional teams on machine learning and data visualization initiatives.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image%20%281%29-kR5f4VWwD24k5AGcw4TLTYZEcyMIFY.png",
     email: "hyou9@stanford.edu",
-    phone: "470-985-8625",
     avatar: "AY",
   },
   {
@@ -41,7 +39,6 @@ const mentors = [
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1712897889049.jpeg-VVaglBfqwsEYA70UVFufLbiX6UO21z.png",
     email: "chinat@stanford.edu",
-    phone: "443-722-4218",
     avatar: "CY",
   },
   {
@@ -113,7 +110,7 @@ export default function MentorTeam() {
                   <div className="mt-4 pt-4 border-t border-primary/10">
                     <p className="text-sm">
                       <span className="font-medium">Contact: </span>
-                      {mentor.email} {mentor.phone && `| ${mentor.phone}`}
+                      {mentor.email}
                     </p>
                   </div>
                 )}

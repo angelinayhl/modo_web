@@ -38,9 +38,9 @@ export default function VideoTestimonials() {
           </h2>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="flex-1">
+            <div key={testimonial.id}>
               <VideoCard testimonial={testimonial} />
             </div>
           ))}
@@ -83,6 +83,7 @@ function VideoCard({ testimonial }: { testimonial: VideoTestimonial }) {
           poster="/placeholder.svg?height=720&width=1280&text=Testimonial Video"
           onEnded={() => setIsPlaying(false)}
           muted={isMuted}
+          playsInline // Important for iOS
         />
         <div className="absolute inset-0 bg-black/30 flex items-center justify-center transition-opacity duration-300 hover:bg-black/20">
           <div className="flex gap-3">
