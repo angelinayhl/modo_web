@@ -104,6 +104,23 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative lg:ml-auto">
+                <div className="max-w-full w-full">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0_zV6OW2xS4rUvaAyX-VoTnM6LiqwW2qSbcmwZLDlgGNr3jou.png"
+                    alt="Logos of top universities including MIT, Stanford, Princeton, Yale, Harvard, Carnegie Mellon, Duke, and other prestigious institutions"
+                    className="w-full h-auto rounded-lg shadow-md"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Countdown Section */}
+        <section className="py-12 bg-white">
+          <div className="container px-4 md:px-6">
+            <div className="flex justify-center">
+              <div className="max-w-4xl w-full">
                 <div className="relative overflow-hidden rounded-2xl border border-primary/20 shadow-xl bg-white p-8">
                   <CountdownTimer />
                   <div className="space-y-6 mt-6">
@@ -143,21 +160,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Top University Logos Section */}
-        <section className="py-12 bg-white">
-          <div className="container px-4 md:px-6">
-            <div className="flex justify-center">
-              <div className="max-w-4xl w-full">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0_zV6OW2xS4rUvaAyX-VoTnM6LiqwW2qSbcmwZLDlgGNr3jou.png"
-                  alt="Logos of top universities including MIT, Stanford, Princeton, Yale, Harvard, Carnegie Mellon, Duke, and other prestigious institutions"
-                  className="w-full h-auto rounded-lg shadow-md"
-                />
               </div>
             </div>
           </div>
