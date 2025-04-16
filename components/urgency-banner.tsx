@@ -29,8 +29,8 @@ export default function UrgencyBanner() {
               className="bg-primary/20 border-primary/30 text-white hover:bg-primary/30"
               asChild
             >
-              <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
-                Book a Consultation
+              <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                Secure Your Spot
               </Link>
             </Button>
             <button

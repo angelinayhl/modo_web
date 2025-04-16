@@ -52,8 +52,8 @@ export default function ProgramStructure() {
                   to see if they would be a good fit for our selective programs.
                 </p>
                 <Button className="w-full bg-primary hover:bg-primary/90" asChild>
-                  <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
-                    Book a Consultation <ExternalLink className="ml-2 h-4 w-4" />
+                  <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                    Enroll Now <ExternalLink className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -100,8 +100,8 @@ export default function ProgramStructure() {
                   Selected students from the bootcamp will be invited to join our comprehensive 10-week program.
                 </p>
                 <Button className="w-full bg-primary hover:bg-primary/90" asChild>
-                  <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
-                    Book a Consultation <ExternalLink className="ml-2 h-4 w-4" />
+                  <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                    Enroll Now <ExternalLink className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
