@@ -57,9 +57,18 @@ export default function ProgramTiers() {
                 </li>
               </ul>
               <div className="pt-4">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-                  <Link href="#enroll">Get Started</Link>
-                </Button>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
+                    <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                      Enroll Now
+                    </Link>
+                  </Button>
+                  <Button className="w-full border-primary text-primary hover:bg-primary/10" variant="outline" asChild>
+                    <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                      Book a Consultation
+                    </Link>
+                  </Button>
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -108,9 +117,18 @@ export default function ProgramTiers() {
                 </li>
               </ul>
               <div className="pt-4">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-                  <Link href="#enroll">Get Started</Link>
-                </Button>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
+                    <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                      Enroll Now
+                    </Link>
+                  </Button>
+                  <Button className="w-full border-primary text-primary hover:bg-primary/10" variant="outline" asChild>
+                    <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                      Book a Consultation
+                    </Link>
+                  </Button>
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -156,9 +174,18 @@ export default function ProgramTiers() {
                 </li>
               </ul>
               <div className="pt-4">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-                  <Link href="#enroll">Get Started</Link>
-                </Button>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
+                    <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
+                      Enroll Now
+                    </Link>
+                  </Button>
+                  <Button className="w-full border-primary text-primary hover:bg-primary/10" variant="outline" asChild>
+                    <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                      Book a Consultation
+                    </Link>
+                  </Button>
+                </div>
               </div>
             </CardContent>
           </Card>

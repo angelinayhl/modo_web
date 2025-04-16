@@ -57,6 +57,11 @@ export default function MobileMenu() {
                 Subscribe to Access Resources
               </Link>
             </Button>
+            <Button asChild variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
+              <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                Book a Consultation
+              </Link>
+            </Button>
             <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
                 Enroll Now

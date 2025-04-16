@@ -51,7 +51,7 @@ export default function CTASection() {
               </div>
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center gap-4 flex-col sm:flex-row">
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-medium px-8 py-6 h-auto shadow-md animate-pulse"
@@ -59,6 +59,16 @@ export default function CTASection() {
               >
                 <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
                   Enroll Now
+                </Link>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/10 text-lg font-medium px-8 py-6 h-auto shadow-md"
+                asChild
+              >
+                <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                  Book a Consultation
                 </Link>
               </Button>
             </div>

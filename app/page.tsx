@@ -55,6 +55,11 @@ export default function Home() {
             <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
               <Link href="#subscription-form">Subscribe to Access Resources</Link>
             </Button>
+            <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                Book a Consultation
+              </Link>
+            </Button>
             <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
                 Enroll Now
@@ -92,6 +97,16 @@ export default function Home() {
                   >
                     <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
                       Enroll Now
+                    </Link>
+                  </Button>
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="border-primary text-primary hover:bg-primary/10 text-lg font-medium px-8 py-6 h-auto shadow-md"
+                    asChild
+                  >
+                    <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                      Book a Consultation
                     </Link>
                   </Button>
                 </div>
