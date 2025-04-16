@@ -56,8 +56,8 @@ export default function Home() {
               <Link href="#subscription-form">Subscribe to Access Resources</Link>
             </Button>
             <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
-                Enroll Now
+              <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                Book a Consultation
               </Link>
             </Button>
           </div>
@@ -90,8 +90,8 @@ export default function Home() {
                     className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-medium px-8 py-6 h-auto shadow-md"
                     asChild
                   >
-                    <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
-                      Enroll Now
+                    <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                      Book a Consultation
                     </Link>
                   </Button>
                 </div>

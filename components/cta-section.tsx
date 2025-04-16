@@ -57,8 +57,8 @@ export default function CTASection() {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-medium px-8 py-6 h-auto shadow-md animate-pulse"
                 asChild
               >
-                <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
-                  Enroll Now
+                <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                  Book a Consultation
                 </Link>
               </Button>
             </div>

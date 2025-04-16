@@ -58,7 +58,7 @@ export default function ProgramTiers() {
               </ul>
               <div className="pt-4">
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-                  <Link href="#enroll">Get Started</Link>
+                  <Link href="https://calendly.com/modo-academy/intro_call">Book a Consultation</Link>
                 </Button>
               </div>
             </CardContent>
@@ -109,7 +109,7 @@ export default function ProgramTiers() {
               </ul>
               <div className="pt-4">
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-                  <Link href="#enroll">Get Started</Link>
+                  <Link href="https://calendly.com/modo-academy/intro_call">Book a Consultation</Link>
                 </Button>
               </div>
             </CardContent>
@@ -157,7 +157,7 @@ export default function ProgramTiers() {
               </ul>
               <div className="pt-4">
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-                  <Link href="#enroll">Get Started</Link>
+                  <Link href="https://calendly.com/modo-academy/intro_call">Book a Consultation</Link>
                 </Button>
               </div>
             </CardContent>

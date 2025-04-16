@@ -58,8 +58,8 @@ export default function MobileMenu() {
               </Link>
             </Button>
             <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-              <Link href="https://calendly.com/modo-academy/stanford-grad-mentored-spark-program" target="_blank">
-                Enroll Now
+              <Link href="https://calendly.com/modo-academy/intro_call" target="_blank">
+                Book a Consultation
               </Link>
             </Button>
           </div>
